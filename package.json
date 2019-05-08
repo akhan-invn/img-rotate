@@ -4,8 +4,13 @@
   "description": "Image Rotation test",
   "main": "index.js",
   "scripts": {
+    "sandbox": "http-server ./sandbox -p 3001",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "testcafe": "^1.1.4"
+  }
 }
